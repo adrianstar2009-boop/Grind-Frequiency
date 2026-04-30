@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GRIND FREQUENCY</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #222;
+}
+
+header h1 {
+  letter-spacing: 4px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  background: url('https://via.placeholder.com/1200x800') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 60px;
+  letter-spacing: 6px;
+}
+
+.section {
+  padding: 60px 40px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.split {
+  display: flex;
+}
+
+.split div {
+  flex: 1;
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>GRIND FREQUENCY</h1>
+  <nav>
+    <a href="#">Shop</a>
+    <a href="#">Collections</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>NO DAYS OFF</h2>
+</div>
+
+<section class="section">
+  <h2>Collections</h2>
+
+  <div class="split">
+    <div>
+      <h3>STREET</h3>
+      <p>Oversized fits / dark tones / raw energy</p>
+    </div>
+
+    <div>
+      <h3>GYM</h3>
+      <p>Performance / breathable / built to move</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>New Drop</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400">
+      <h3>Oversized Tee</h3>
+      <p>$30</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400">
+      <h3>Gym Tank</h3>
+      <p>$25</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400">
+      <h3>Hoodie</h3>
+      <p>$50</p>
+      <a href="#" class="btn">Buy</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 GRIND FREQUENCY
+</footer>
+
+</body>
+</html>
